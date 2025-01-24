@@ -7,11 +7,6 @@
 	"repository": "NotMirrox/SmartBone-2",
 	"homepage": "https://smartbone.org/docs/intro",
 	"version": "0.4.2-rc.0",
-	"scripts": {
-		"build": "rbxtsc",
-		"watch": "rbxtsc -w",
-		"prepublishOnly": "npm run build"
-	},
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
@@ -19,7 +14,6 @@
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
 		"@rbxts/types": "^1.0.813",
-		"roblox-ts": "^3.0.0",
 		"typescript": "^5.7.3"
 	}
 }
