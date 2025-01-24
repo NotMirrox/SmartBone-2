@@ -1,0 +1,25 @@
+{
+	"name": "@rbxts/smartbone",
+	"description": "Revamped release of legacy SmartBone",
+	"main": "out/init.lua",
+	"types": "out/index.d.ts",
+	"files": ["out", "!**/*.tsbuildinfo"],
+	"repository": "NotMirrox/SmartBone-2",
+	"homepage": "https://smartbone.org/docs/intro",
+	"version": "0.4.2",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"prepublishOnly": "npm run build"
+	},
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^3.0.0-types.0",
+		"@rbxts/types": "^1.0.813",
+		"roblox-ts": "^3.0.0",
+		"typescript": "^5.7.3"
+	}
+}
