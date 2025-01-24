@@ -1,9 +1,9 @@
 {
 	"name": "@rbxts/smartbone",
 	"description": "Revamped release of legacy SmartBone",
-	"main": "out/init.lua",
-	"types": "out/index.d.ts",
-	"files": ["out", "!**/*.tsbuildinfo"],
+	"main": "src/init.lua",
+	"types": "src/index.d.ts",
+	"files": ["src", "!**/*.tsbuildinfo"],
 	"repository": "NotMirrox/SmartBone-2",
 	"homepage": "https://smartbone.org/docs/intro",
 	"version": "0.4.2",
