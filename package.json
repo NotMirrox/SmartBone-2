@@ -6,7 +6,7 @@
 	"files": ["src", "!**/*.tsbuildinfo"],
 	"repository": "NotMirrox/SmartBone-2",
 	"homepage": "https://smartbone.org/docs/intro",
-	"version": "0.4.2",
+	"version": "0.4.2-rc.0",
 	"scripts": {
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w",
