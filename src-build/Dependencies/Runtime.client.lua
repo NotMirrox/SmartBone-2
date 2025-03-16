@@ -40,9 +40,8 @@ local BonePhysics = SmartboneClass.new()
 local Dependencies = SmartboneModule.Dependencies
 local DebugUi = require(Dependencies.DebugUi)
 local Iris
-local Config = require(Dependencies.Config)
 local Utilities = require(Dependencies.Utilities)
-local ShouldDebug = RunService:IsStudio() or Config.ALLOW_LIVE_GAME_DEBUG
+local ShouldDebug = false
 local OverlayEvent = SmartboneModule:WaitForChild("OverlayEvent")
 
 local ForceDestroy = false
