@@ -4,9 +4,12 @@
 	"main": "src/init.lua",
 	"types": "src/index.d.ts",
 	"files": ["src", "!**/*.tsbuildinfo"],
-	"repository": "NotMirrox/SmartBone-2",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NotMirrox/SmartBone-2.git"
+	},
 	"homepage": "https://smartbone.org/docs/intro",
-	"version": "0.4.2-rc.0",
+	"version": "0.4.2-rc.1",
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
