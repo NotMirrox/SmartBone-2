@@ -46,7 +46,7 @@ declare class BoneTree {
 	public ObjectVelocity: Vector3;
 	public ObjectPreviousPosition: Vector3;
 
-	constructor(rootBone: IBone, rootPart: BasePart);
+	constructor(rootBone: IBone, rootPart: BasePart, settings: Settings);
 
 	UpdateBoundingBox(): void;
 	UpdateThrottling(rootPosition: Vector3): void;
