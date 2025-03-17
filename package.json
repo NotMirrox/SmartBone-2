@@ -9,7 +9,7 @@
 		"url": "git+https://github.com/NotMirrox/SmartBone-2.git"
 	},
 	"homepage": "https://smartbone.org/docs/intro",
-	"version": "0.4.2-rc.1",
+	"version": "0.4.2-rc.2",
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
